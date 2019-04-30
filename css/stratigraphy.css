@@ -1,0 +1,179 @@
+/* stratigraphy.css - turkana edition
+
+This is the global CSS that is included on every page */
+
+.strat-hide-img {
+  display: none;
+}
+
+.strat-show-img {
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 9999;
+}
+
+.strat-hover-img-fullscreen {
+  background: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.strat-hover-img-fullscreen img {
+  zoom: 10;
+  margin: auto;
+  height: auto;
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+}
+
+.strat-hover-img-position {
+  border: 1px solid black;
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 480px) {
+  .strat-hover-img-position {
+    height: auto;
+    max-width: 90vw;
+    max-height: 90vh;
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 480px) {
+  .strat-hover-img-position {
+    height: auto;
+    max-width: 90vw;
+    max-height: 90vh;
+  }
+}
+
+.pano-hide-img {
+  display: none;
+}
+
+.pano-show-img {
+  display: block;
+  border: 1px solid black;
+  position: fixed;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.pano-show-img-mobile {
+  border: none;
+  top: initial;
+  transform: initial;
+}
+
+.sketchfab-close-btn {
+  position: absolute;
+  color: black;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  top: 2px;
+  right: 96px;
+  width: 36px;
+  height: 24px;
+  margin: 6px;
+  padding: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sketchfab-close-btn:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+svg a {
+  cursor: pointer;
+}
+
+svg #flags g {
+  cursor: pointer;
+}
+
+svg .flag_style:hover {
+  opacity: 1;
+  fill: white;
+  stroke: #424242;
+  stroke-width: 2px;
+}
+
+svg .pip {
+  cursor: pointer;
+}
+
+svg .hoverthing {
+  cursor: pointer;
+}
+
+svg g#section-flags a path:hover {
+  opacity: 1;
+  stroke: #424242;
+  stroke-width: 2px;
+}
+
+svg g#section-flags a circle:hover {
+  opacity: 1;
+  stroke: #424242;
+  stroke-width: 2px;
+}
+
+svg g#section-flags-blue a path:hover {
+  opacity: 1;
+  stroke: #00adee;
+  stroke-width: 2px;
+}
+
+svg g#coal .hoverthing:hover {
+  opacity: 1;
+}
+
+svg g#oil .hoverthing:hover {
+  opacity: 1;
+}
+
+svg g#gas .hoverthing:hover {
+  opacity: 1;
+}
+
+svg .pip:hover {
+  fill: #156815;
+}
+
+svg .purple {
+  cursor: pointer;
+}
+
+svg .purple:hover {
+  fill: #7823a9;
+}
+
+svg a .sectionlink:hover {
+  opacity: 1;
+  stroke: #424242;
+  stroke-width: 2px;
+}
+
+.w-container {
+  max-width: 1200px;
+}
+
+.tippy-content {
+  font-size: 12px;
+}

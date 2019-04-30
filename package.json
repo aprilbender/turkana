@@ -1,0 +1,23 @@
+{
+  "name": "turkanastan-stratigraphy",
+  "version": "0.0.1",
+  "description": "Scripts for the Turkanastan site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compress:something": "npx svgo 'svg/Some_File_Without_Spaces.svg' -o 'svg/Some_File_Without_Spaces_Compressed.svg'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aprilbender/turkanastan.git"
+  },
+  "author": "April Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aprilbender/turkanastan/issues"
+  },
+  "homepage": "https://github.com/aprilbender/turkanastan#readme",
+  "dependencies": {
+    "svgo": "^1.1.1"
+  }
+}
