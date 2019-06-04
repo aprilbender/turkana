@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compress:something": "npx svgo 'svg/Some_File_Without_Spaces.svg' -o 'svg/Some_File_Without_Spaces_Compressed.svg'"
+    "compress:strat_chart": "npx svgo 'Strat Chart.svg' -o 'Strat_Chart_Compressed.svg'"
   },
   "repository": {
     "type": "git",
