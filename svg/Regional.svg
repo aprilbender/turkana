@@ -17,7 +17,7 @@
 	.st10{fill:none;stroke:#EC1C24;stroke-width:4;stroke-miterlimit:10;}
 	.st11{fill:none;stroke:#D6DE23;stroke-width:5;stroke-miterlimit:10;}
 	.st12{fill:none;stroke:#BE1E2D;stroke-width:5;stroke-miterlimit:10;}
-	.st13{fill:none;stroke:#FAAF40;stroke-width:5;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#37B34A;stroke-width:5;stroke-miterlimit:10;}
 	.st14{fill:none;stroke:#F05A28;stroke-width:5;stroke-miterlimit:10;}
 	.st15{fill:none;stroke:#009345;stroke-width:5;stroke-miterlimit:10;}
 	.st16{fill:none;stroke:#D91C5C;stroke-width:5;stroke-miterlimit:10;}
@@ -1946,7 +1946,6 @@ p3++u+dhZH/U/wBDf7G5ubjzqtPz9Gx/4/qf/9k=" transform="matrix(0.9889 0.014 -0.014 
 			</g>
 		</g>
 	</g>
-	<path class="st1" d="M432.01,598"/>
 </g>
 <g id="sepia_overtone">
 	<rect x="69.21" y="68.57" class="st2" width="920.52" height="788.8"/>
@@ -2092,8 +2091,6 @@ p3++u+dhZH/U/wBDf7G5ubjzqtPz9Gx/4/qf/9k=" transform="matrix(0.9889 0.014 -0.014 
 	</g>
 </g>
 <g id="detailed_section">
-	<path class="st7" d="M455.28,590.62"/>
-	<path class="st7" d="M429.74,590.34"/>
 </g>
 <g id="section_lines" class="st8">
 	<g class="st9">
@@ -2179,7 +2176,6 @@ p3++u+dhZH/U/wBDf7G5ubjzqtPz9Gx/4/qf/9k=" transform="matrix(0.9889 0.014 -0.014 
 		494.46,208.24 491.62,208.81 489.16,210.13 487.65,214.11 485.94,217.89 485,221.3 483.86,224.32 481.97,228.3 481.97,231.71 
 		481.4,234.17 479.13,236.25 478.94,240.03 479.32,243.63 481.97,245.52 482.73,248.17 481.97,251.96 480.64,254.98 481.97,259.53 
 		482.35,263.5 480.46,267.1 478.75,270.31 478,272.02 	"/>
-	<path class="st19" d="M478,272.02"/>
 	<polyline class="st18" points="482.92,231.33 485.57,235.11 486.51,237.95 489.16,239.65 492.38,240.98 493.32,243.63 
 		493.32,247.98 492.19,252.33 492.38,256.31 494.27,259.15 495.03,262.68 497.49,266.15 497.49,269.93 495.97,272.02 496.54,275.42 
 		497.49,277.69 	"/>
@@ -2691,17 +2687,5 @@ p3++u+dhZH/U/wBDf7G5ubjzqtPz9Gx/4/qf/9k=" transform="matrix(0.9889 0.014 -0.014 
 		c4.63,1.49,8.96,3.88,12.68,7.01c20.78,17.47,45.59,29.87,68.11,45.02c4.07,2.73,8.13,5.47,12.22,8.17
 		c3.51,2.31,7.04,4.6,10.55,6.93c17.09,11.34,39.43,25.31,53.43,35.53c10.07,7.35,18.92,10.81,28.48,18.82
 		c11.26,9.44,20.44,21.28,32.35,29.9c1.36,0.99,33.36,7.9,34.31,6.52"/>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
 </g>
 </svg>
