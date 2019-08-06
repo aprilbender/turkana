@@ -93,7 +93,6 @@ const domSubtreeEvent = (mutationsList, observer) => {
   console.log("domSubtreeEvent invoked with:");
   console.log("mutationsList:", mutationsList);
   console.log("observer", observer);
-  debugger;
 };
 
 const updateLargeSvgSize = () => {
@@ -108,7 +107,9 @@ const updateLargeSvgSize = () => {
   $("#ajaxContentParent").attr("style", widthStyle);
 
   // There might be related images that will have to scale similarly
-  const zoomableContentParent = $("#zoomableContentParent");
+  const zoomableContentParent = document.getElementById(
+    "zoomableContentParent"
+  );
   if (zoomableContentParent) {
     const mutationCfg = { subtree: true };
     const observer = new MutationObserver(domSubtreeEvent);
