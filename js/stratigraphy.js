@@ -89,10 +89,11 @@ const hideHoverImage = selector => {
   }, 0);
 };
 
-const domSubtreeEvent = (mutationsList, observer) => {
+const domSubtreeEvent = widthStyle => (mutationsList, observer) => {
   console.log("domSubtreeEvent invoked with:");
   console.log("mutationsList:", mutationsList);
   console.log("observer", observer);
+  console.log("add style:", widthStyle);
 };
 
 const updateLargeSvgSize = () => {
@@ -107,12 +108,15 @@ const updateLargeSvgSize = () => {
   $("#ajaxContentParent").attr("style", widthStyle);
 
   // There might be related images that will have to scale similarly
+  // If they are already loaded, set their width directly.
+  $(".zoomableContent").attr("style", widthStyle);
+  // If they're not yet loaded, set their width once they show up.
   const zoomableContentParent = document.getElementById(
     "zoomableContentParent"
   );
   if (zoomableContentParent) {
     const mutationCfg = { childList: true, subtree: true };
-    const observer = new MutationObserver(domSubtreeEvent);
+    const observer = new MutationObserver(domSubtreeEvent(widthStyle));
     observer.observe(zoomableContentParent, mutationCfg);
   }
 };
