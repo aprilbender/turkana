@@ -111,7 +111,7 @@ const updateLargeSvgSize = () => {
     "zoomableContentParent"
   );
   if (zoomableContentParent) {
-    const mutationCfg = { subtree: true };
+    const mutationCfg = { childList: true, subtree: true };
     const observer = new MutationObserver(domSubtreeEvent);
     observer.observe(zoomableContentParent, mutationCfg);
   }
