@@ -89,6 +89,13 @@ const hideHoverImage = selector => {
   }, 0);
 };
 
+const domSubtreeEvent = (mutationsList, observer) => {
+  console.log("domSubtreeEvent invoked with:");
+  console.log("mutationsList:", mutationsList);
+  console.log("observer", observer);
+  debugger;
+};
+
 const updateLargeSvgSize = () => {
   if (!$("#measure").length) {
     console.warn(
@@ -102,7 +109,11 @@ const updateLargeSvgSize = () => {
 
   // There might be related images that will have to scale similarly
   const zoomableContentParent = $("#zoomableContentParent");
-  debugger;
+  if (zoomableContentParent) {
+    const mutationCfg = { subtree: tree };
+    const observer = new MutationObserver(domSubtreeEvent);
+    observer.observe(zoomableContentParent, mutationCfg);
+  }
 };
 
 const loadLargeSvg = (targetSelector, svgUrl, successCallback) => {
