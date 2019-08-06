@@ -99,6 +99,10 @@ const updateLargeSvgSize = () => {
   const measureWidth = $("#measure")[0].getBoundingClientRect().width;
   const widthStyle = `width: ${measureWidth}px`;
   $("#ajaxContentParent").attr("style", widthStyle);
+
+  // There might be related images that will have to scale similarly
+  const zoomableContentParent = $("#zoomableContentParent");
+  debugger;
 };
 
 const loadLargeSvg = (targetSelector, svgUrl, successCallback) => {
