@@ -110,7 +110,7 @@ const updateLargeSvgSize = () => {
   // There might be related images that will have to scale similarly
   const zoomableContentParent = $("#zoomableContentParent");
   if (zoomableContentParent) {
-    const mutationCfg = { subtree: tree };
+    const mutationCfg = { subtree: true };
     const observer = new MutationObserver(domSubtreeEvent);
     observer.observe(zoomableContentParent, mutationCfg);
   }
