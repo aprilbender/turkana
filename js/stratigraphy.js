@@ -109,7 +109,7 @@ const updateLargeSvgSize = () => {
 
   // There might be related images that will have to scale similarly
   // If they are already loaded, set their width directly.
-  $(".zoomableContent").attr("style", widthStyle);
+  $(".resetwidth").attr("style", widthStyle);
   // If they're not yet loaded, set their width once they show up.
   const zoomableContentParent = document.getElementById(
     "zoomableContentParent"
