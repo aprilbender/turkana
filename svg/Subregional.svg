@@ -2748,7 +2748,8 @@ p3++u+dhZH/U/wBDf7G5ubjzqtPz9Gx/4/qf/9k=" transform="matrix(0.9889 0.014 -0.014 
 			c-2.07,3.13-6.28,3.98-9.41,1.92l-10.68-7.07l7.86-11.88L567.19,415.42"/>
 	</a>
 	<a xlink:href="#i" >
-		<path id="sm-9" class="hoverthing" d="M329.31,181.65h-14c-3.3,0-6-2.7-6-6v-2c0-3.3,2.7-6,6-6h14V181.65z"/>
+		<path id="sm-9" onclick="navTo('i')" class="hoverthing" d="M329.31,181.65h-14c-3.3,0-6-2.7-6-6v-2c0-3.3,2.7-6,6-6h14V181.65z"
+			/>
 	</a>
 </g>
 <g id="Kenya_Border">
