@@ -3,7 +3,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1063 1722" style="enable-background:new 0 0 1063 1722;" xml:space="preserve">
 <style type="text/css">
-	.boxstyle{fill:none;stroke:#EC1C24;stroke-width:4;stroke-miterlimit:10;}
+	.boxstyle{opacity:0.01;fill:#FFFFFF;}
 	.st0{clip-path:url(#SVGID_2_);}
 	.st1{clip-path:url(#SVGID_4_);}
 	.st2{fill:#231F20;}
@@ -102,6 +102,7 @@
 	.st95{clip-path:url(#SVGID_100_);fill:none;stroke:#231F20;}
 	.st96{clip-path:url(#SVGID_102_);fill:none;stroke:#231F20;}
 	.st97{opacity:0.55;clip-path:url(#SVGID_104_);}
+	.st98{fill:none;stroke:#EC1C24;stroke-width:4;stroke-miterlimit:10;}
 </style>
 <g id="base">
 	<g>
@@ -2391,8 +2392,9 @@
 	</g>
 </g>
 <g id="box_links">
+	<rect id="a" x="235" y="150.56" class="st98" width="63.26" height="271.15"/>
 	<a xlink:href="#a" >
-		<rect id="ms-1" x="235" y="150.56" onclick="navTo('a')" class="boxstyle" width="63.26" height="271.15"/>
+		<rect id="ms-1" x="238" y="154" onclick="navTo('a')" class="boxstyle" width="57" height="264"/>
 	</a>
 </g>
 <g id="text">
