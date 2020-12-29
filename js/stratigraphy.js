@@ -206,3 +206,43 @@ const loadTooltips = (tooltips, targetSelectors) => {
   });
   $.getScript("https://unpkg.com/tippy.js@3/dist/tippy.all.min.js");
 };
+
+const addPrefixToTooltips = (tooltips, prefix) =>
+  Object.keys(tooltips).reduce((acc, val) => {
+    acc[prefix + val] = tooltips[val];
+    return acc;
+  }, {});
+
+const assembleTooltipClasses = (targetClassFragment) => {
+  let hoverthings = [];
+  $(`path[class^="${targetClassFragment}"]`).each((_, t) => {
+    hoverthings.push("." + t.className.baseVal);
+  });
+  $(`circle[class^="${targetClassFragment}"]`).each((_, t) => {
+    hoverthings.push("." + t.className.baseVal);
+  });
+  $(`rect[class^="${targetClassFragment}"]`).each((_, t) => {
+    hoverthings.push("." + t.className.baseVal);
+  });
+  return hoverthings;
+};
+
+const loadSvgWithTooltips = ({
+  svgUrl, // 'https://raw.githubusercontent.com/aprilbender/siwalik/master/svg/Potwar_Map_Compressed.svg'
+  tooltips, // { 'smap-1' : 'Some tooltip', 'smap-2' : 'Some other tooltip' }
+  filePrefix, // "Potwar_Map_svg__"
+  tooltipPrefix, // "hoverthing"
+  contentDivId, // "#ajaxContent"
+  updateLink, // true or false
+}) => {
+  const hoverthingTarget = filePrefix + tooltipPrefix;
+  const tooltipsNew = addPrefixToTooltips(tooltips, filePrefix);
+  Webflow.push(function () {
+    $(document).ready(() => {
+      loadLargeSvg(contentDivId, svgUrl, () => {
+        let hoverthings = assembleTooltipClasses(hoverthingTarget);
+        loadTooltips(tooltipsNew, hoverthings, updateLink, filePrefix);
+      });
+    });
+  });
+};
