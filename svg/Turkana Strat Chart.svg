@@ -2391,7 +2391,9 @@
 	</g>
 </g>
 <g id="box_links">
-	<rect x="235" y="150.56" class="boxstyle" width="63.26" height="271.15"/>
+	<a xlink:href="#a" >
+		<rect id="ms-1" x="235" y="150.56" onclick="navTo('a')" class="boxstyle" width="63.26" height="271.15"/>
+	</a>
 </g>
 <g id="text">
 	<g>
