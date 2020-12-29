@@ -4,9 +4,7 @@
   "description": "Scripts for the Turkanastan site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compress:something": "npx svgo 'svg/Some_File_Without_Spaces.svg' -o 'svg/Some_File_Without_Spaces_Compressed.svg'",
-    "compress:strat_chart": "npx svgo 'Strat Chart.svg' -o 'Strat_Chart_Compressed.svg'"
+    "compress:strat_chart": "npx svgo 'svg/Turkana Strat Chart.svg' -o 'svg/Strat_Chart_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles"
   },
   "repository": {
     "type": "git",
