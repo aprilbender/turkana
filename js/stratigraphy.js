@@ -198,10 +198,19 @@ const showPano = (e, ident) => {
 //
 // targetSelectors should be an array of selectors that the tooltips will be
 // attached to.
-const loadTooltips = (tooltips, targetSelectors) => {
+const loadTooltips = (tooltips, targetSelectors, updateLink, tooltipPrefix) => {
   targetSelectors.forEach(selector => {
     $(selector).each(function(_, elm) {
       $(elm).attr("data-tippy", tooltips[elm.id]);
+      if (updateLink) {
+        // the <a href> above (if it is indeed that) might have had its target updated by the svgo compress
+        // process. This screws up local linking. So we have to revert just those elements back to the original.
+        const cl = $(elm).parent().attr("xlink:href");
+        if (cl) {
+          const ncl = cl.replace(tooltipPrefix, "");
+          $(elm).parent().attr("xlink:href", ncl);
+        }
+      }
     });
   });
   $.getScript("https://unpkg.com/tippy.js@3/dist/tippy.all.min.js");
