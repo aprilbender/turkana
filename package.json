@@ -4,7 +4,8 @@
   "description": "Scripts for the Turkanastan site",
   "main": "index.js",
   "scripts": {
-    "compress:strat_chart": "npx svgo 'svg/Turkana Strat Chart.svg' -o 'svg/Strat_Chart_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles"
+    "compress:strat_chart": "npx svgo 'svg/Turkana Strat Chart.svg' -o 'svg/Strat_Chart_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles",
+    "compress:depo": "npx svgo 'svg/Depo Episodes_key.svg' -o 'svg/Depo Episodes_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles"
   },
   "repository": {
     "type": "git",
