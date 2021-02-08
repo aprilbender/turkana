@@ -1299,10 +1299,10 @@
             <path id="Turkana_Strat_Chart_svg__b" class="Turkana_Strat_Chart_svg__st98" d="M579 170h63.26v252H579z"/>
         </a>
         <a xlink:href="#Turkana_Strat_Chart_svg__a">
-            <path id="Turkana_Strat_Chart_svg__ms-1" class="Turkana_Strat_Chart_svg__boxstyle" d="M238 154h56v265h-56z"/>
+            <path id="Turkana_Strat_Chart_svg__ms-1" onclick="navTo('a')" class="Turkana_Strat_Chart_svg__boxstyle" d="M238 154h56v265h-56z"/>
         </a>
         <a xlink:href="#Turkana_Strat_Chart_svg__b">
-            <path id="Turkana_Strat_Chart_svg__ms-2" class="Turkana_Strat_Chart_svg__boxstyle" d="M582 173h56v244h-56z"/>
+            <path id="Turkana_Strat_Chart_svg__ms-2" onclick="navTo('b')" class="Turkana_Strat_Chart_svg__boxstyle" d="M582 173h56v244h-56z"/>
         </a>
     </g>
     <g id="Turkana_Strat_Chart_svg__text">
