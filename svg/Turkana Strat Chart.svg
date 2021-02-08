@@ -3,6 +3,7 @@
 <svg version="1.1" onclick="navTo('a')" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" viewBox="0 0 1063 1722" style="enable-background:new 0 0 1063 1722;" xml:space="preserve">
 <style type="text/css">
+	.boxstyle{opacity:0.01;fill:#FFFFFF;}
 	.st0{clip-path:url(#SVGID_2_);}
 	.st1{clip-path:url(#SVGID_4_);}
 	.st2{fill:#231F20;}
@@ -2391,11 +2392,17 @@
 	</g>
 </g>
 <g id="box_links">
-	<a xlink:href="#a" >
+	<a>
 		<rect id="a" x="235" y="150.56" class="st98" width="63.26" height="271.15"/>
 	</a>
 	<a xlink:href="#b" >
 		<rect id="b" x="579" y="170" class="st98" width="63.26" height="252"/>
+	</a>
+	<a xlink:href="#a" >
+		<rect id="ms-1" x="238" y="154" class="boxstyle" width="56" height="265"/>
+	</a>
+	<a xlink:href="#b" >
+		<rect id="ms-2" x="582" y="173" class="boxstyle" width="56" height="244"/>
 	</a>
 </g>
 <g id="text">
