@@ -2395,7 +2395,7 @@
 	<a>
 		<rect id="a" x="235" y="150.56" class="st98" width="63.26" height="271.15"/>
 	</a>
-	<a xlink:href="#b" >
+	<a>
 		<rect id="b" x="579" y="170" class="st98" width="63.26" height="252"/>
 	</a>
 	<a xlink:href="#a" >
