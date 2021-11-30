@@ -2404,7 +2404,7 @@
 		<rect id="c" x="139" y="87.14" class="st96" width="28.47" height="381.86"/>
 	</a>
 	<a xlink:href="#c" >
-		<rect id="ms-3" x="142" y="90.59" onclick="navTo('a')" class="boxstyle" width="21.21" height="374.41"/>
+		<rect id="ms-3" x="142" y="90.59" onclick="navTo('c')" class="boxstyle" width="21.21" height="374.41"/>
 	</a>
 	<a xlink:href="#b" >
 		<rect id="ms-2" x="582" y="173" onclick="navTo('b')" class="boxstyle" width="56" height="244"/>

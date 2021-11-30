@@ -144,7 +144,7 @@
             <path id="Depo_Episodes_key_svg__map-1_1_" onclick="navTo('a')" class="Depo_Episodes_key_svg__hoverthing2" d="M1140.3 106.09h-1.52c-4.68-.01-8.49 3.77-8.5 8.46v.73a8.378 8.378 0 0 0 8.36 8.4l15.8.04.05-17.59-14.19-.04"/>
         </a>
         <a xlink:href="#Depo_Episodes_key_svg__d">
-            <path id="Depo_Episodes_key_svg__map-4" onclick="navTo('a')" class="Depo_Episodes_key_svg__hoverthing2" d="M1140.53 179.12h-1.52c-4.68-.01-8.49 3.77-8.5 8.46v.73a8.378 8.378 0 0 0 8.36 8.4l15.8.04.05-17.59-14.19-.04"/>
+            <path id="Depo_Episodes_key_svg__map-4" onclick="navTo('d')" class="Depo_Episodes_key_svg__hoverthing2" d="M1140.53 179.12h-1.52c-4.68-.01-8.49 3.77-8.5 8.46v.73a8.378 8.378 0 0 0 8.36 8.4l15.8.04.05-17.59-14.19-.04"/>
         </a>
         <a xlink:href="#Depo_Episodes_key_svg__c">
             <path id="Depo_Episodes_key_svg__map-3" onclick="navTo('c')" class="Depo_Episodes_key_svg__hoverthing2" d="M785.41 84.9h-1.52c-4.68-.01-8.49 3.77-8.5 8.46v.73a8.378 8.378 0 0 0 8.36 8.4l15.8.04.05-17.59-14.19-.04"/>

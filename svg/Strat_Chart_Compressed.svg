@@ -1305,7 +1305,7 @@
             <path id="Turkana_Strat_Chart_svg__c" class="Turkana_Strat_Chart_svg__st96" d="M139 87.14h28.47V469H139z"/>
         </a>
         <a xlink:href="#Turkana_Strat_Chart_svg__c">
-            <path id="Turkana_Strat_Chart_svg__ms-3" onclick="navTo('a')" class="Turkana_Strat_Chart_svg__boxstyle" d="M142 90.59h21.21V465H142z"/>
+            <path id="Turkana_Strat_Chart_svg__ms-3" onclick="navTo('c')" class="Turkana_Strat_Chart_svg__boxstyle" d="M142 90.59h21.21V465H142z"/>
         </a>
         <a xlink:href="#Turkana_Strat_Chart_svg__b">
             <path id="Turkana_Strat_Chart_svg__ms-2" onclick="navTo('b')" class="Turkana_Strat_Chart_svg__boxstyle" d="M582 173h56v244h-56z"/>
