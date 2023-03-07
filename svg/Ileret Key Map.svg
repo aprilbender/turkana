@@ -3,6 +3,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1600 1108" style="enable-background:new 0 0 1600 1108;" xml:space="preserve">
 <style type="text/css">
+	.hoverthing2{opacity:0.7;fill:#FFFFFF;stroke:#FF0000;stroke-width:3;stroke-miterlimit:10;}
 	.st0{display:none;}
 	.st1{display:inline;fill:none;stroke:#00C1E9;stroke-width:2;}
 	.st2{display:inline;fill:none;stroke:#231F20;stroke-width:0.5;}
@@ -67,7 +68,6 @@
 	.st61{fill:#FFFFFF;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
 	.st62{stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
 	.st63{fill:none;stroke:#EC1C24;stroke-width:4;stroke-miterlimit:10;}
-	.st64{opacity:0.7;fill:#FFFFFF;stroke:#FF0000;stroke-width:3;stroke-miterlimit:10;}
 </style>
 <g id="beach_Ridge" class="st0">
 	<path class="st1" d="M535.92,400.63c25.78,10.57,51.09,24.57,77.21,33.93c24.08,8.63,45.81,24.13,68.11,36.96
@@ -14177,31 +14177,31 @@
 </g>
 <g id="section-flags">
 	<a xlink:href="#a" >
-		<path id="rs-1" onclick="navTo('a')" class="st64" d="M731.77,35.75l0.76-2.52c2.34-7.79,10.56-12.2,18.35-9.86l1.21,0.36
+		<path id="rs-1" onclick="navTo('a')" class="hoverthing2" d="M731.77,35.75l0.76-2.52c2.34-7.79,10.56-12.2,18.35-9.86l1.21,0.36
 			c7.69,2.32,12.05,10.43,9.74,18.12l-7.91,26.27l-29.24-8.8L731.77,35.75"/>
 	</a>
 	<a xlink:href="#b" >
-		<path id="rs-2_00000089568762812606945270000003475488143008960147_" onclick="navTo('b')" class="st64" d="M413.77,34.75
+		<path id="rs-2_00000089568762812606945270000003475488143008960147_" onclick="navTo('b')" class="hoverthing2" d="M413.77,34.75
 			l0.76-2.52c2.34-7.79,10.56-12.2,18.35-9.86l1.21,0.36c7.69,2.32,12.05,10.43,9.74,18.12l-7.91,26.27l-29.24-8.8L413.77,34.75"/>
 	</a>
 	<a xlink:href="#c" >
-		<path id="rs-3" onclick="navTo('c')" class="st64" d="M96.77,35.75l0.76-2.52c2.34-7.79,10.56-12.2,18.35-9.86l1.21,0.36
+		<path id="rs-3" onclick="navTo('c')" class="hoverthing2" d="M96.77,35.75l0.76-2.52c2.34-7.79,10.56-12.2,18.35-9.86l1.21,0.36
 			c7.69,2.32,12.05,10.43,9.74,18.12l-7.91,26.27l-29.24-8.8L96.77,35.75"/>
 	</a>
 	<a xlink:href="#d" >
-		<path id="rs-4" onclick="navTo('d')" class="st64" d="M39.71,184.89h-2.63c-8.13,0-14.73-6.59-14.73-14.73v-1.26
+		<path id="rs-4" onclick="navTo('d')" class="hoverthing2" d="M39.71,184.89h-2.63c-8.13,0-14.73-6.59-14.73-14.73v-1.26
 			c0-8.03,6.51-14.55,14.55-14.55l27.44,0l0,30.53L39.71,184.89"/>
 	</a>
 	<a xlink:href="#e" >
-		<path id="rs-5" onclick="navTo('e')" class="st64" d="M39.71,325.89h-2.63c-8.13,0-14.73-6.59-14.73-14.73v-1.26
+		<path id="rs-5" onclick="navTo('e')" class="hoverthing2" d="M39.71,325.89h-2.63c-8.13,0-14.73-6.59-14.73-14.73v-1.26
 			c0-8.03,6.51-14.55,14.55-14.55h27.44l0,30.53H39.71"/>
 	</a>
 	<a xlink:href="#f" >
-		<path id="rs-6" onclick="navTo('f')" class="st64" d="M39.71,445.89h-2.63c-8.13,0-14.73-6.59-14.73-14.73v-1.26
+		<path id="rs-6" onclick="navTo('f')" class="hoverthing2" d="M39.71,445.89h-2.63c-8.13,0-14.73-6.59-14.73-14.73v-1.26
 			c0-8.03,6.51-14.55,14.55-14.55h27.44l0,30.53H39.71"/>
 	</a>
 	<a xlink:href="#g" >
-		<path id="rs-7" onclick="navTo('g')" class="st64" d="M40.71,572.89h-2.63c-8.13,0-14.73-6.59-14.73-14.73v-1.26
+		<path id="rs-7" onclick="navTo('g')" class="hoverthing2" d="M40.71,572.89h-2.63c-8.13,0-14.73-6.59-14.73-14.73v-1.26
 			c0-8.03,6.51-14.55,14.55-14.55h27.44l0,30.53L40.71,572.89"/>
 	</a>
 	<g>
