@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/aprilbender/turkanastan#readme",
   "dependencies": {
-    "svgo": "^3.3.2"
+    "svgo": "^1.3.2"
   }
 }
