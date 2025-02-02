@@ -4,8 +4,8 @@
   "description": "Scripts for the Turkanastan site",
   "main": "index.js",
   "scripts": {
-    "compress:strat_chart": "npx svgo 'svg/Turkana Strat Chart.svg' -o 'svg/Strat_Chart_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles",
-    "compress:strata_keymap": "npx svgo 'svg/Koobi Fora Strata_Keymap.svg' -o 'svg/Koobi Fora Strata_Keymap_Compressed.svg' --pretty",
+    "compress:strat_chart": "npx svgo 'svg/Strat Chart Keymap.svg' -o 'svg/Strat_Chart_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles",
+    "compress:strata_keymap": "npx svgo 'svg/Koobi Fora Strata_Keymap.svg' -o 'svg/Koobi Fora Strata_Keymap_Compressed.svg' --pretty --enable=prefixIds ",
     "compress:depo": "npx svgo 'svg/Depo Episodes_key.svg' -o 'svg/Depo Episodes_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles",
     "compress:one": "npx svgo 'svg/Compiled_one.svg' -o 'svg/Compiled_one_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles"
   },
@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/aprilbender/turkanastan#readme",
   "dependencies": {
-    "svgo": "^1.3.2"
+    "svgo": "^3.3.2"
   }
 }
