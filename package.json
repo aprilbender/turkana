@@ -4,10 +4,10 @@
   "description": "Scripts for the Turkanastan site",
   "main": "index.js",
   "scripts": {
-    "compress:strat_chart": "npx svgo 'svg/Strat Chart Keymap.svg' -o 'svg/Strat_Chart_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles",
-    "compress:strata_keymap": "npx svgo 'svg/Koobi Fora Strata_Keymap.svg' -o 'svg/Koobi Fora Strata_Keymap_Compressed.svg' --pretty --enable=prefixIds ",
-    "compress:depo": "npx svgo 'svg/Depo Episodes_key.svg' -o 'svg/Depo Episodes_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles",
-    "compress:one": "npx svgo 'svg/Compiled_one.svg' -o 'svg/Compiled_one_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles"
+    "compress:strat_chart": "npx svgo -i 'svg/Strat Chart Keymap.svg' -o 'svg/Strat_Chart_Compressed.svg'",
+    "compress:strata_keymap": "npx svgo -i 'svg/Koobi Fora Strata_Keymap.svg' -o 'svg/Koobi Fora Strata_Keymap_Compressed.svg'",
+    "compress:depo": "npx svgo -i 'svg/Depo Episodes_key.svg' -o 'svg/Depo Episodes_Compressed.svg'",
+    "compress:one": "npx svgo -i 'svg/Compiled Key Map.svg' -o 'svg/Compiled_one_Compressed.svg'"
   },
   "repository": {
     "type": "git",
